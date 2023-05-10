@@ -1,0 +1,178 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+
+}
+.main{
+    padding: 3rem;
+    background-color: #333333;
+}
+.nav-bar{
+background-color: black;
+color: white;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-between;
+font-size: 1.2rem;
+padding: 1.5rem;
+}
+.nav-bar > * {
+    flex: 1;
+    vertical-align: middle;
+    text-align: center;
+}
+.portfolio{
+    flex: 2;
+    text-align: left;
+}
+.section-1{
+    background-image: url("./Images/building-at-night.jpg");
+    background-size: 100%;
+    background-position: left;
+    font-size: 2rem;
+    color: white;
+    padding: 10rem;
+}
+.data{
+background-color: rgba(0, 0, 0, 0.7);
+padding: 2rem;
+
+}
+.data > *{
+    line-height: 3rem;
+}
+.portfolioNimi{
+    font-size: 3rem;
+    color: rgb(246, 99, 20);
+    padding: 1rem;
+}
+.palveluja{
+    
+    font-size: 3rem;
+    color: rgb(246, 99, 20);
+    padding: 1rem;
+}
+span{
+    font-style: italic;
+    color: bisque;
+}
+.section-2{
+  background-color: white;
+}
+.flex{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap; 
+ align-items: flex-start;
+}
+.sec-heading{
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 1rem;   
+    
+}
+.column{
+flex-grow: 1;
+flex-basis: 0;
+border: solid;
+border-color: rgb(188, 185, 185);
+border-radius: 20px;
+padding: 1rem;
+margin: 0.5rem;
+}
+.column-img{
+
+    object-fit: contain;
+    padding: 0.2rem;
+}
+.column-img > *{
+    width: 100%;
+    height: 20rem;
+}
+.card-title{
+    font-size: 1.6rem;
+    font-weight: 700;
+    padding: 1rem 0.2rem;
+}
+article{
+    font-size: 1.5rem;
+}
+.see-more{
+    color: rgb(246, 203, 152);
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1.5rem;
+    padding: 1rem 0.2rem;
+}
+.section-3, .section-4{
+    margin: 2rem 0.2rem;
+    padding: 1rem 0.2rem;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: #7ea2a9;
+}
+.section-4{
+    border-top: 0;
+    padding-top: 0;
+}
+
+.sec-heading{
+    padding: 1rem;
+    color: #A9663F;
+    font-size: 3rem;
+}
+.flex-3, .flex-4{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ justify-content: space-between;
+}
+.flex-3 > *,
+.flex-4 > *{
+    flex-grow: 1;
+    flex-basis: 0;
+    
+}
+.data-3,
+.data-4{
+ padding: 1rem;
+ color: white;
+ flex-grow: 2;
+}
+.sec-photo{
+ 
+height: 20rem;
+width: 100%;
+}
+.sec-photo >img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    
+}
+
+.details{
+color: white;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+vertical-align: middle;
+padding-top: 1rem;
+}
+.details >p{
+    margin-right: 10rem;
+    font-size: 1.5rem;
+    
+}
+input{
+  flex-grow: 2;
+}
+
+
+
+
